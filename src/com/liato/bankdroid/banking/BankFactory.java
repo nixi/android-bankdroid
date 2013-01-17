@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*
  * Copyright (C) 2010 Nullbyte <http://nullbyte.eu>
  *
@@ -465,6 +466,8 @@ public class BankFactory {
 	
 }
 =======
+=======
+>>>>>>> 3f8540448c68d14506eb9abac4c451fb83dfe9f9
 /*
  * Copyright (C) 2010 Nullbyte <http://nullbyte.eu>
  *
@@ -550,6 +553,10 @@ import com.liato.bankdroid.banking.banks.Wallet;
 import com.liato.bankdroid.banking.banks.Meniga;
 import com.liato.bankdroid.banking.banks.Marginalen;
 import com.liato.bankdroid.banking.banks.Nordea.Nordea;
+<<<<<<< HEAD
+=======
+import com.liato.bankdroid.banking.banks.SvenskaSpel;
+>>>>>>> 3f8540448c68d14506eb9abac4c451fb83dfe9f9
 import com.liato.bankdroid.banking.exceptions.BankException;
 import com.liato.bankdroid.db.Crypto;
 import com.liato.bankdroid.db.DBAdapter;
@@ -689,6 +696,11 @@ public class BankFactory {
         	return new Chalmrest(context);
         case IBankTypes.MARGINALEN:
             return new Marginalen(context);
+<<<<<<< HEAD
+=======
+        case IBankTypes.SVENSKASPEL:
+            return new SvenskaSpel(context);
+>>>>>>> 3f8540448c68d14506eb9abac4c451fb83dfe9f9
 		default:
 			throw new BankException("BankType id not found.");
 		}
@@ -759,7 +771,12 @@ public class BankFactory {
         banks.add(new Bioklubben(context));
         banks.add(new Chalmrest(context));
         banks.add(new Marginalen(context));
+<<<<<<< HEAD
 
+=======
+        banks.add(new SvenskaSpel(context));
+        
+>>>>>>> 3f8540448c68d14506eb9abac4c451fb83dfe9f9
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
         if (prefs.getBoolean("debug_mode", false)) { 
             banks.add(new TestBank(context));
@@ -926,4 +943,7 @@ public class BankFactory {
 	}
 	
 }
+<<<<<<< HEAD
 >>>>>>> New bank: Akelius Spar
+=======
+>>>>>>> 3f8540448c68d14506eb9abac4c451fb83dfe9f9
