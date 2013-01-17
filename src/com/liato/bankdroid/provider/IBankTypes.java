@@ -1,5 +1,4 @@
 <<<<<<< HEAD
-<<<<<<< HEAD
 /*
  * Copyright (C) 2010 Nullbyte <http://nullbyte.eu>
  *
@@ -89,8 +88,6 @@ public interface IBankTypes {
     public static final int SVENSKASPEL = 63;
 }
 =======
-=======
->>>>>>> 3f8540448c68d14506eb9abac4c451fb83dfe9f9
 /*
  * Copyright (C) 2010 Nullbyte <http://nullbyte.eu>
  *
@@ -177,10 +174,5 @@ public interface IBankTypes {
     public static final int CHALMREST = 60;
     public static final int MARGINALEN = 61;
     public static final int AKELIUSSPAR = 62;
-<<<<<<< HEAD
 }
 >>>>>>> New bank: Akelius Spar
-=======
-    public static final int SVENSKASPEL = 63;
-}
->>>>>>> 3f8540448c68d14506eb9abac4c451fb83dfe9f9
